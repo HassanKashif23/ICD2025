@@ -18,6 +18,7 @@ EthernetHeader packet_parser(const uint8_t *packet)
 // Function to print Ethernet header information
 void print_header(EthernetHeader eth)
 {
+    printf("\n");
     printf("=========Ethernet Header=======\n");
     printf("Destination MAC: ");
     for(int i = 0; i<6; i++)
@@ -45,6 +46,6 @@ void print_header(EthernetHeader eth)
     {
         printf("Ethertype: Unknown (0x%04X)\n", eth.ethertype);
     }
-    printf("\n");
+    printf("================================\n");
     printf("\n");
 }

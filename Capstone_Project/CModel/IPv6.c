@@ -39,6 +39,6 @@ void print_ip6_header(IPv6header ip6)
         printf("%d", ip6.dest_ip6[i]);
         if (i < 15) printf(":");
     }
-    printf("\n");
+    printf("\n==============================================\n");
     printf("\n");
 }

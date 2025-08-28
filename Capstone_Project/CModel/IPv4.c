@@ -47,6 +47,6 @@ void print_ip4_header(IPv4header ip4)
     printf("Destination ip4: %d.%d.%d.%d\n",
            (ip4.dest_ip4 >> 24) & 0xFF, (ip4.dest_ip4 >> 16) & 0xFF,
             (ip4.dest_ip4 >> 8) & 0xFF, ip4.dest_ip4 & 0xFF);
-    printf("\n");
+    printf("================================\n");
     printf("\n");
 }

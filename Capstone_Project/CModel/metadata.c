@@ -106,9 +106,10 @@ void print_metadata(Metadata meta) {
         printf("%d", meta.dest_ip6[i]);
         if (i < 15) printf(":");
     }
+    printf("\n");
     }
-    
-    
+    printf("================================\n");
+    printf("\n");
 
     
 }
