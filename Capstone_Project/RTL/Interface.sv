@@ -1,7 +1,7 @@
 interface packet #(
-    parameter DATA_WIDTH = 128,
+    parameter DATA_WIDTH = 512,
     parameter DATA_BYTES = DATA_WIDTH / 8,
-    parameter USER_WIDTH = 3
+    parameter USER_WIDTH = 2
 );
     logic       clk;
     logic       rst;
@@ -34,7 +34,6 @@ interface packet #(
         input TSTRB,
         input TUSER
     );
-
 
 
 endinterface
